@@ -1,0 +1,15 @@
+n=1531
+num=n
+sum=0
+nod=len(str(n))
+while num>0:
+   ld=num%10
+   sum+=ld**nod
+   num=num//10
+
+if(sum==n):
+   print("this is an armstrong number")
+else:
+   print("this is not an armstrong number")
+
+   
